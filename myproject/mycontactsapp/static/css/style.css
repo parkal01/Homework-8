@@ -1,0 +1,45 @@
+/* styles.css */
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Heading styles */
+h1 {
+  font-size: 24px;
+  color: #1877f2; /* Facebook's primary color */
+  margin-bottom: 20px;
+}
+
+/* Contact list styles */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  background-color: #e39797;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact details styles */
+p {
+  margin: 5px 0;
+}
+
+/* Styling links */
+a {
+  text-decoration: none;
+  color: #1877f2; /* Facebook's primary color */
+}
+
+a:hover {
+  text-decoration: underline;
+}

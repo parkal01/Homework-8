@@ -1,0 +1,28 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Page Title</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+</head>
+
+<body>
+
+    <h1>My Contacts</h1>
+    <p>This is a list of contacts:</p>
+
+    <ul>
+        {% for contact in contacts %}
+        <li>
+            <p>first Name: {{ contact.first_name }}</p>
+            <p>last Name: {{ contact.last_name }}</p>
+            <p>Email: {{ contact.email }}</p>
+        </li>
+        {% endfor %}
+    </ul>
+
+</body>
+
+</html>
